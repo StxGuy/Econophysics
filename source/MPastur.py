@@ -69,6 +69,5 @@ pl.plot(esp,DOS,'.',color='gray')
 pl.axis([0,3.75,0,1.2])
 pl.xlabel('Eigenvalue')
 pl.ylabel('Density')
-#pl.savefig('../chapters/Chapter_5/figs/src/MPastur2.svg')
 pl.show()
                  
