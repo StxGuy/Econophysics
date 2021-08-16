@@ -51,10 +51,11 @@ DOS = []
 for it in range(300):
     R = np.array([[np.random.normal(0,1) for cn in range(n)] for cm in range(M)])
     H = np.dot(R,np.transpose(R))
-    N = len(H)
+    N = len(R)
     H = np.dot(1.0/N,H)
     
     gsp = []
+    N = len(H)
     for e in esp:
         G = np.linalg.inv((e+1j*eta)*np.eye(N)-H)
         r = -(1.0/(N*np.pi))*np.trace(G.imag)
