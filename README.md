@@ -1,6 +1,8 @@
 # Econophysics
 
-The collection of Python scripts for the upcoming book: C. R. da Cunha, "Introduction to Econophysics: Contemporary Approaches with Python Simulations" (2021) CRC Press.
+<img src="http://www.filosofisica.com/books/figs/COVER.jpg" width="104" height="159">
+
+The collection of Python scripts for the book: C. R. da Cunha, "Introduction to Econophysics: Contemporary Approaches with Python Simulations" (2021) CRC Press.
 
 
 [![Generic badge](https://img.shields.io/badge/GitHub-StxGuy/Econophysics-<COLOR>.svg)](https://github.com/StxGuy/Econophysics)
